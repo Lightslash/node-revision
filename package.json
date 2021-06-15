@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lightslash/node-revision/issues"
   },
-  "homepage": "https://github.com/Lightslash/node-revision#readme"
+  "homepage": "https://github.com/Lightslash/node-revision#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
