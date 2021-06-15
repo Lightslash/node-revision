@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Mon backend de révision Node-Express-MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lightslash/node-revision.git"
+  },
+  "author": "Lightslash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lightslash/node-revision/issues"
+  },
+  "homepage": "https://github.com/Lightslash/node-revision#readme"
+}
