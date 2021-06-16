@@ -2,8 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const Thing = require('./models/thing');
+const credentials = require('./credentials')
 
-mongoose.connect('mongodb+srv://lightslash:2511Pol"@cluster0.yeyzw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect(credentials.urlWithCredentials,
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
