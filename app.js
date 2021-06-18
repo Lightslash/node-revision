@@ -2,9 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const Thing = require('./models/thing');
-const credentials = require('./credentials')
+const MongoCredentials = require('./credential')
 
-mongoose.connect(credentials.urlWithCredentials,
+mongoose.connect(MongoCredentials.urlWithCredentials,
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
